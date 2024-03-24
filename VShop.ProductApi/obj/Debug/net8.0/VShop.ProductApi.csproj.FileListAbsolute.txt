@@ -105,3 +105,5 @@ C:\Users\mayco\OneDrive\Documentos\GitHub\VShop\VShop.ProductApi\obj\Debug\net8.
 C:\Users\mayco\OneDrive\Documentos\GitHub\VShop\VShop.ProductApi\obj\Debug\net8.0\VShop.ProductApi.pdb
 C:\Users\mayco\OneDrive\Documentos\GitHub\VShop\VShop.ProductApi\obj\Debug\net8.0\VShop.ProductApi.genruntimeconfig.cache
 C:\Users\mayco\OneDrive\Documentos\GitHub\VShop\VShop.ProductApi\obj\Debug\net8.0\ref\VShop.ProductApi.dll
+C:\Users\mayco\OneDrive\Documentos\GitHub\VShop\VShop.ProductApi\obj\Debug\net8.0\VShop.ProductApi.sourcelink.json
+C:\Users\mayco\OneDrive\Documentos\GitHub\VShop\VShop.ProductApi\bin\Debug\net8.0\AutoMapper.dll

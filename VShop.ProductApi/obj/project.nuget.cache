@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ay11hr+7mLoDJCtQX/lz5tWWWWoooWhqbU1fhOTaTIPpN3/DKApzkPzHFnZa9e+UQyECddWmoLLSksAsFYJRCQ==",
+  "dgSpecHash": "C4PVteKt++n79lK09z457m+1sUyFr6owMWTbP2CW6EvC+4snwcGB21owmvpu0eR3iYPikh0s4HtYL27RSqZw7Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\mayco\\OneDrive\\Documentos\\GitHub\\VShop\\VShop.ProductApi\\VShop.ProductApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\mayco\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\mayco\\.nuget\\packages\\dotnetenv\\3.0.0\\dotnetenv.3.0.0.nupkg.sha512",
     "C:\\Users\\mayco\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\mayco\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.2\\microsoft.aspnetcore.openapi.8.0.2.nupkg.sha512",

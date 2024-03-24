@@ -1,0 +1,6 @@
+@VShopFront.Server_HostAddress = http://localhost:5199
+
+GET {{VShopFront.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
