@@ -39,6 +39,16 @@ public class Program
             app.UseSwaggerUI();
         }
         
+        /*
+         * https://stackoverflow.com/questions/48285408/how-to-disable-cors-completely-in-webapi
+         */
+        app.UseCors(policy => policy
+            .AllowAnyMethod()
+            .AllowAnyHeader()
+            .AllowCredentials()
+            .SetIsOriginAllowed(origin => true)
+        );
+        
         app.UseHttpsRedirection();
 
         app.UseAuthorization();
