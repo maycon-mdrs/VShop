@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using VShop.ProductApi.Context;
 
@@ -10,9 +11,11 @@ using VShop.ProductApi.Context;
 namespace VShop.ProductApi.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240327004200_UpdateDataPop")]
+    partial class UpdateDataPop
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -138,7 +141,7 @@ namespace VShop.ProductApi.Migrations
                         {
                             Id = 5,
                             CategoryId = 3,
-                            Description = "Camisa Camiseta Masculina Slim Voker Premium 100% Algodão.",
+                            Description = "Camisa Camiseta Masculina Slim Voker Premium 100% Algodão",
                             ImageUrl = "https://m.media-amazon.com/images/I/415M8ksnThL._AC_SX385_.jpg",
                             Name = "Camisa Masculina Slim Voker",
                             Price = 60.00m,
@@ -148,7 +151,7 @@ namespace VShop.ProductApi.Migrations
                         {
                             Id = 6,
                             CategoryId = 3,
-                            Description = "Camisa Camiseta Masculina Slim Voker Premium 100% Algodão.",
+                            Description = "Camisa Camiseta Masculina Slim Voker Premium 100% Algodão",
                             ImageUrl = "https://m.media-amazon.com/images/I/41vSsY5uVDL._AC_SX385_.jpg",
                             Name = "Camisa branca",
                             Price = 60.00m,

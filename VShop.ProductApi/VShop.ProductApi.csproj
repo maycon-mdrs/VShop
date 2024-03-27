@@ -25,6 +25,14 @@
 
     <ItemGroup>
       <Compile Remove="Controllers\CategoryController.cs" />
+      <Compile Remove="Migrations\20240327004200_UpdateDataPop.cs" />
+      <Compile Remove="Migrations\20240327004200_UpdateDataPop.Designer.cs" />
+      <Compile Remove="Migrations\20240323125219_Populations.cs" />
+      <Compile Remove="Migrations\20240323125219_Populations.Designer.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Migrations\" />
     </ItemGroup>
 
 </Project>
