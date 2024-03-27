@@ -3,6 +3,16 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+# Remove bin
+/bin/
+bin/
+/obj/
+obj/
+/VShop.ProductApi/bin/*
+/VShop.ProductApi/obj/*
+VShop.ProductApi/obj/
+VShop.ProductApi/obj/*
+
 # User-specific files
 *.rsuser
 *.suo
@@ -396,3 +406,4 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+VShop.ProductApi/obj/Debug/net8.0/refint/VShop.ProductApi.dll
