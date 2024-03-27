@@ -5,13 +5,6 @@
 
 # Remove bin
 /bin/
-bin/
-/obj/
-obj/
-/VShop.ProductApi/bin/*
-/VShop.ProductApi/obj/*
-VShop.ProductApi/obj/
-VShop.ProductApi/obj/*
 
 # User-specific files
 *.rsuser
